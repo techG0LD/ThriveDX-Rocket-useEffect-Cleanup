@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import './App.css';
-import RocketLauncher from './RocketLauncher.jsx'
 
 function App() {
   let [launch, setLaunch] = useState(true)
@@ -8,7 +7,6 @@ function App() {
   return (
     <main>
       <h1>Learning Cleanup!</h1>
-      <RocketLauncher />
     </main>
   );
 }
